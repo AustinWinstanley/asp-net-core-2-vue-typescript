@@ -1,0 +1,38 @@
+{
+    "name": "asp-net-core-2-vue-typescript",
+	"description": "Demonstration of an ASP.Net Core 2.0 / Vue.js / TypeScript application.",
+    "version": "1.0.0",
+	"license": "GPL-2.0",
+    "scripts": {
+      "build": "webpack",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "aspnet-prerendering": "latest",
+      "axios": "latest",
+      "lodash": "latest",
+      "nprogress": "latest",
+      "vue": "latest",
+      "vue-class-component": "latest",
+      "vue-router": "latest",
+      "vue-server-renderer": "latest",
+      "vuex": "latest"
+    },
+    "devDependencies": {
+      "aspnet-webpack": "latest",
+      "babel-core": "latest",
+      "babel-loader": "latest",
+      "babel-preset-es2015": "latest",
+      "babel-preset-stage-2": "latest",
+      "css-loader": "latest",
+      "json-loader": "latest",
+      "style-loader": "latest",
+      "ts-loader": "latest",
+      "typescript": "latest",
+      "vue-loader": "latest",
+      "vue-template-compiler": "latest",
+      "webpack": "latest",
+      "webpack-hot-middleware": "latest",
+      "webpack-merge": "latest"
+    }
+  }

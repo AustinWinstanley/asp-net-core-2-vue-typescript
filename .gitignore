@@ -1,0 +1,8 @@
+*.log
+
+node_modules
+yarn.lock
+
+bin
+obj
+wwwroot/dist

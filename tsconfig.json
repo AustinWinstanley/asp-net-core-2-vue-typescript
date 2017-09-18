@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        // Redirect output structure to the directory.
+        "outDir": "./wwwroot/dist/",
+        // Generates corresponding .map file.
+        "sourceMap": true,
+        // Enable all strict type checking options.
+        // --noImplicitAny, --noImplicitThis, --alwaysStrict and --strictNullChecks
+        "strict": true,
+        // Specify module code generation.
+        "module": "es2015",
+        // Determine how modules get resolved.
+        "moduleResolution": "node",
+        // Specify ECMAScript target version.
+        "target": "es5",
+        // Emit design-type metadata for decorated declarations in source.
+        "emitDecoratorMetadata": true,
+        // Do not transpile each file as a separate module.
+        "isolatedModules": false,
+        // Enable experimental support for class decorators.
+        "experimentalDecorators": true,
+        // Remove all comments except copy-right header comments beginning with /*!.
+        "removeComments": true,
+        // Suppress --noImplicitAny errors for indexing objects lacking index signatures.
+        "suppressImplicitAnyIndexErrors": true,
+        // Allow default imports from modules with no default export.
+        "allowSyntheticDefaultImports": true,
+        // List of library files to be included in the compilation.
+        "lib": [
+          "dom",
+          "es5",
+          "es2015",
+          "es2015.promise"
+        ]
+    },
+    // Files/Folders to include in compilation.
+    "include": [
+        "./Client/**/*"
+    ],
+    // Files/Folders to exclude in compilation.
+    "exclude":[
+      "node_modules"
+    ]
+}
